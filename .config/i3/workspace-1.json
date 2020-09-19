@@ -1,0 +1,78 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 561,
+       "width": 953,
+       "x": 281,
+       "y": 1105
+    },
+    "name": "HexChat",
+    "percent": 0.671875,
+    "swallows": [
+       {
+       // "class": "^Hexchat$",
+        "instance": "^hexchat$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.328125,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 566,
+               "width": 676,
+               "x": 1244,
+               "y": 495
+            },
+            "name": "Signal",
+            "percent": 0.439965694682676,
+            "swallows": [
+               {
+               // "class": "^Signal$",
+                "instance": "^signal$"
+               // "title": "^Signal$",
+               // "transient_for": "^$",
+               // "window_role": "^browser\\-window$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1043,
+               "width": 958,
+               "x": 962,
+               "y": 18
+            },
+            "name": "Telegram",
+            "percent": 0.560034305317324,
+            "swallows": [
+               {
+                "class": "^TelegramDesktop$"
+               // "instance": "^Telegram$"
+               // "title": "^Telegram$",
+               // "transient_for": "^$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-notifyd" version="1.0">
+  <property name="primary-monitor" type="uint" value="0"/>
+  <property name="notify-location" type="uint" value="2"/>
+  <property name="log-level" type="uint" value="0"/>
+  <property name="log-level-apps" type="uint" value="0"/>
+  <property name="applications" type="empty">
+    <property name="known_applications" type="array">
+      <value type="string" value="io.github.Hexchat"/>
+      <value type="string" value="mainline"/>
+      <value type="string" value="telegram-desktop_telegram-desktop"/>
+      <value type="string" value="thunar"/>
+      <value type="string" value="Xfce volume control"/>
+      <value type="string" value="Xfce volume daemon"/>
+      <value type="string" value="xfce4-power-manager"/>
+    </property>
+  </property>
+  <property name="notification-log" type="bool" value="true"/>
+</channel>
